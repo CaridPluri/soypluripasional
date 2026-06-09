@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 const fadeUp = {
@@ -31,7 +32,8 @@ export default function HomePage() {
       {/* HERO */}
       <section className="min-h-[92vh] bg-verde-darker flex items-center relative overflow-hidden">
         <div className="absolute inset-0 opacity-20" style={{ backgroundImage: "radial-gradient(ellipse 80% 60% at 10% 60%, #C9A84C22 0%, transparent 70%)" }} />
-        <div className="max-w-5xl mx-auto px-6 py-24 relative z-10">
+        <div className="max-w-6xl mx-auto px-6 py-24 relative z-10 w-full">
+          <div className="grid md:grid-cols-[1fr_400px] gap-12 items-center">
           <motion.div variants={stagger} initial="initial" animate="animate" className="space-y-6">
             <motion.p variants={fadeUp} className="font-inter text-xs tracking-[0.35em] uppercase text-oro/70">Mapa Pluripasional™</motion.p>
             <motion.h1 variants={fadeUp} className="font-cormorant text-[clamp(3rem,9vw,7.5rem)] font-light leading-[1.05] text-crema">
@@ -52,6 +54,17 @@ export default function HomePage() {
               </Link>
             </motion.div>
           </motion.div>
+          <motion.div variants={fadeUp} initial="initial" animate="animate" className="hidden md:block relative">
+            <Image
+              src="https://galaxy-prod.tlcdn.com/view/user_33qETT0QJiDNS0tCdOTn2vdz5Fc/ef16e34b09964e84a616d992da1e9215.png"
+              alt="Carid Báez — Arquitecta de Identidad Pluripasional"
+              width={400}
+              height={600}
+              className="w-full object-cover object-top"
+              priority
+            />
+          </motion.div>
+          </div>
         </div>
       </section>
 
