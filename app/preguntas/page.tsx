@@ -57,7 +57,7 @@ export default function PreguntasPage() {
           <motion.h2 className="font-cormorant text-4xl md:text-5xl font-light mb-6" variants={fadeUp}>¿Todavía tienes dudas?</motion.h2>
           <motion.div className="flex flex-col sm:flex-row gap-4 justify-center" variants={fadeUp}>
             <a href="https://mapa-pluripasional.vercel.app" target="_blank" rel="noopener noreferrer" className="bg-oro text-verde-darker font-inter text-sm tracking-[0.1em] uppercase px-10 py-5 hover:bg-oro-light transition-colors duration-300">Tomar el Examen Gratuito</a>
-            <a href="mailto:hola@soypluripasional.com" className="border border-crema/30 text-crema font-inter text-sm tracking-[0.1em] uppercase px-8 py-4 hover:bg-crema/10 transition-colors duration-300">Escribirme Directo</a>
+            <a href="mailto:info@caridbaez.com" className="border border-crema/30 text-crema font-inter text-sm tracking-[0.1em] uppercase px-8 py-4 hover:bg-crema/10 transition-colors duration-300">Escribirme Directo</a>
           </motion.div>
         </motion.div>
       </section>
