@@ -14,7 +14,7 @@ export default function SesionPage() {
           <motion.p className="text-oro font-inter text-sm tracking-[0.2em] uppercase mb-4" variants={fadeUp}>Trabaja Conmigo</motion.p>
           <motion.h1 className="font-cormorant text-5xl md:text-7xl font-light leading-tight mb-6" variants={fadeUp}>Sesión Estratégica<br /><em className="text-oro">Pluripasional™</em></motion.h1>
           <motion.p className="font-inter text-lg text-crema/80 leading-relaxed mb-10 max-w-xl mx-auto" variants={fadeUp}>Una sesión de trabajo profundo para mujeres que ya han tomado el Mapa y están listas para convertir la claridad en dirección concreta.</motion.p>
-          <motion.a href="mailto:hola@soypluripasional.com" className="inline-block bg-oro text-verde-darker font-inter text-sm tracking-[0.15em] uppercase px-10 py-5 hover:bg-oro-light transition-colors duration-300" variants={fadeUp}>Reservar Mi Sesión →</motion.a>
+          <motion.a href="mailto:info@caridbaez.com" className="inline-block bg-oro text-verde-darker font-inter text-sm tracking-[0.15em] uppercase px-10 py-5 hover:bg-oro-light transition-colors duration-300" variants={fadeUp}>Reservar Mi Sesión →</motion.a>
         </motion.div>
       </section>
 
@@ -86,7 +86,7 @@ export default function SesionPage() {
         <motion.div className="max-w-2xl mx-auto" initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-80px" }} variants={stagger}>
           <motion.h2 className="font-cormorant text-4xl md:text-5xl font-light mb-6" variants={fadeUp}>Las plazas son limitadas.<br /><em className="text-oro">La claridad no puede esperar.</em></motion.h2>
           <motion.div className="flex flex-col sm:flex-row gap-4 justify-center" variants={fadeUp}>
-            <a href="mailto:hola@soypluripasional.com" className="bg-oro text-verde-darker font-inter text-sm tracking-[0.1em] uppercase px-10 py-5 hover:bg-oro-light transition-colors duration-300">Reservar Mi Sesión →</a>
+            <a href="mailto:info@caridbaez.com" className="bg-oro text-verde-darker font-inter text-sm tracking-[0.1em] uppercase px-10 py-5 hover:bg-oro-light transition-colors duration-300">Reservar Mi Sesión →</a>
             <Link href="/examen" className="border border-crema/30 text-crema font-inter text-sm tracking-[0.1em] uppercase px-8 py-4 hover:bg-crema/10 transition-colors duration-300">Primero Quiero el Mapa</Link>
           </motion.div>
         </motion.div>
