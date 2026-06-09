@@ -24,7 +24,7 @@ export default function SobreMiPage() {
           </motion.div>
           <motion.div variants={fadeUp} className="relative">
             <div className="absolute -inset-4 bg-oro/20 -z-10" />
-            <Image src="https://galaxy-prod.tlcdn.com/gen/user_33qETT0QJiDNS0tCdOTn2vdz5Fc/f4d64812e8164b66a25edc59f882e617.jpg" alt="Carid Báez" width={480} height={600} className="w-full object-cover" priority />
+            <Image src="https://galaxy-prod.tlcdn.com/view/user_33qETT0QJiDNS0tCdOTn2vdz5Fc/ef16e34b09964e84a616d992da1e9215.png" alt="Carid Báez" width={480} height={600} className="w-full object-cover" priority />
           </motion.div>
         </motion.div>
       </section>
@@ -35,7 +35,7 @@ export default function SobreMiPage() {
           <motion.h2 className="font-cormorant text-4xl md:text-5xl font-light text-verde mb-10" variants={fadeUp}>El día que dejé de llamarme "dispersa"</motion.h2>
           {["Durante años lo tuve todo: proyectos en paralelo, ideas que no cabían en una sola caja, pasiones que se multiplicaban. Y también la crítica constante de que no me enfocaba.",
             "Intenté elegir. Fallé. Y con cada ciclo llegaba una capa más de vergüenza y agotamiento. Pensé que el problema era yo.",
-            "No era yo. Era el mapa que me habían dado — diseñado para personas de un solo camino. Cuando finalmente lo entendí, algo se desbloqueó.",
+            "No era yo. Era el mapa que me habían dado — diseñado para personas de un solo camino. Cuando finalmente lo entendí, algo se desbloqué.",
             "Ese giro interno fue el inicio del Sistema Soy Pluripasional™. No como filosofía de autoayuda, sino como metodología de claridad para mentes como la mía."].map((p, i) => (
             <motion.p key={i} className="font-inter text-base text-verde-dark/80 leading-relaxed mb-6" variants={fadeUp}>{p}</motion.p>
           ))}
