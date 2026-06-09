@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function Footer() {
   return (
-    <footer className="bg-verde-darker text-crema py-16 px-6">
+    <footer className="bg-verde-dark text-crema py-16 px-6">
       <div className="max-w-5xl mx-auto grid md:grid-cols-3 gap-10">
         <div>
           <div className="font-cormorant text-2xl font-light mb-3">
@@ -51,10 +51,10 @@ export function Footer() {
           </a>
           <div className="mt-6">
             <a
-              href="mailto:hola@soypluripasional.com"
+              href="mailto:info@caridbaez.com"
               className="font-inter text-xs text-crema/50 hover:text-crema"
             >
-              hola@soypluripasional.com
+              info@caridbaez.com
             </a>
           </div>
         </div>
