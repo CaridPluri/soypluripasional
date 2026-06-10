@@ -39,7 +39,6 @@ export default function HomePage() {
             <motion.h1 variants={fadeUp} className="font-cormorant text-[clamp(3rem,9vw,7.5rem)] font-light leading-[1.05] text-crema">
               Nunca fuiste<br /><em className="italic">dispersa.</em><br />Simplemente, aún<br />no tenías tu mapa.
             </motion.h1>
-            <motion.p variants={fadeUp} className="font-cormorant text-xl md:text-2xl italic text-oro/80">You were never scattered. You were simply unmapped.</motion.p>
             <motion.p variants={fadeUp} className="font-inter text-base md:text-lg text-crema/65 max-w-2xl leading-relaxed">
               No eres demasiado. No estás desenfocada. Eres pluripasional — y existe una metodología construida exactamente para la forma en que funciona tu mente.
             </motion.p>
@@ -79,7 +78,6 @@ export default function HomePage() {
               <p className="text-lg font-medium text-verde-dark">Esto es lo que nadie te dijo: <strong>nunca estuviste dispersa. Solo trabajabas sin un mapa.</strong></p>
               <div className="pt-2 border-l-2 border-oro pl-6">
                 <p className="text-lg font-medium text-verde-dark">Tu diversidad de talentos no es una desventaja. Es la estrategia.</p>
-                <p className="font-cormorant text-xl italic text-oro mt-2">Your diversity of talent is not a liability. It&apos;s the strategy.</p>
               </div>
             </div>
           </motion.div>
@@ -167,7 +165,6 @@ export default function HomePage() {
             <h2 className="font-cormorant text-4xl md:text-5xl font-light text-verde-dark leading-tight">
               Tu mapa ya existe.<br />Trazémoslo juntas.
             </h2>
-            <p className="font-cormorant text-xl italic text-oro">Your map already exists. Let&apos;s draw it together.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6">
               <a href="https://mapa-pluripasional.vercel.app" target="_blank" rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-verde text-crema px-8 py-3.5 font-inter text-sm hover:bg-verde-dark transition-colors">
