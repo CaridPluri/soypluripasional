@@ -24,11 +24,40 @@ export const metadata: Metadata = {
     template: "%s | Soy Pluripasional™",
   },
   description:
-    "Nunca fuiste dispersa. Simplemente, aún no tenías tu mapa. El Mapa Pluripasional™ es una metodología estratégica para personas con múltiples pasiones, habilidades y trayectorias.",
+    "Nunca fuiste dispersa. Simplemente, aún no tenías tu mapa. El Mapa Pluripasional™ es la metodología de Carid Báez para mujeres con múltiples pasiones, talentos y trayectorias que quieren claridad, dirección y una marca que las represente completas.",
+  keywords: [
+    "pluripasional",
+    "mapa pluripasional",
+    "metodología pluripasional",
+    "mujeres multipasionales",
+    "identidad pluripasional",
+    "multipasional",
+    "talentos múltiples",
+    "claridad de propósito",
+    "Carid Báez",
+    "arquetipo pluripasional",
+  ],
+  authors: [{ name: "Carid Báez" }],
+  creator: "Carid Báez",
+  metadataBase: new URL("https://soypluripasional.com"),
   openGraph: {
     type: "website",
     locale: "es_ES",
     siteName: "Soy Pluripasional™",
+    url: "https://soypluripasional.com",
+    title: "Soy Pluripasional™ — Carid Báez",
+    description:
+      "La metodología para mujeres con múltiples pasiones que quieren claridad, dirección e identidad integrada.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Soy Pluripasional™ — Carid Báez",
+    description:
+      "La metodología para mujeres con múltiples pasiones que quieren claridad, dirección e identidad integrada.",
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
